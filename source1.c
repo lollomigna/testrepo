@@ -1,7 +1,7 @@
 #include <glib-unix.h>
 #include <glibmm/optioncontext.h>
 
-//file originale
+//file locale
 
 int signalHandler(void *data) {
     log_debug() << "Caught signal, exiting!";
